@@ -52,6 +52,10 @@ let addresses = [
 	'icook.hk',
 	'104.17.0.0#IPv4',
 	'[2606:4700::]#IPv6'
+ 	'yx.wanderer.bf',
+  	'yx1.wanderer.bf',
+   	'yx.chatal.bf',
+    	'yx1.chatal.bf'
 	*/
 ];
 let addressesapi = [];
@@ -176,7 +180,11 @@ export default {
 							'chatgpt.com:2087',
 							'icook.hk',
 							//'104.17.0.0#IPv4',
-							'[2606:4700::]#IPv6'
+							'[2606:4700::]#IPv6',
+							'yx.wanderer.bf',
+  							'yx1.wanderer.bf',
+   							'yx.chatal.bf',
+    							'yx1.chatal.bf'
 						];
 						if (request.headers.get('Host').includes(".workers.dev")) addressesnotls = [
 							'usa.visa.com:2095',
