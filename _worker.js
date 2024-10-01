@@ -58,7 +58,15 @@ let addresses = [
     	'yx1.chatal.bf'
 	*/
 ];
-let addressesapi = [];
+let addressesapi = [
+	'https://addressesapi.090227.xyz/ct',
+	'https://addressesapi.090227.xyz/cmcc-ipv6',
+	'https://addressesapi.090227.xyz/cmcc',
+	'https://addressesapi.090227.xyz/CloudFlareYes',
+	'https://addressesapi.090227.xyz/ip.164746.xyz',
+	'https://ipdb.api.030101.xyz/?type=bestproxy&country=true',
+	'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
+];
 let addressesnotls = [
 	//当sub为空且域名带有"worker"字样时启用本地优选域名/优选IP，若不带端口号 noTLS默认端口为80，#号后为备注别名
 	/*
