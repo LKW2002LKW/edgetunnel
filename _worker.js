@@ -81,7 +81,7 @@ let addressesnotls = [
 	*/
 ];
 let addressesnotlsapi = [];
-let addressescsv = [];
+let addressescsv = ['https://raw.githubusercontent.com/LKW2002LKW/yxip/refs/heads/main/8075-1728413210.csv?token=GHSAT0AAAAAACXJLJNGNVRFV3A4KHAOWXPOZYGHOVQ',];
 let DLS = 8;
 let FileName = 'edgetunnel';
 let BotToken ='';
