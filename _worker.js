@@ -66,8 +66,8 @@ let addressesapi = [
 	'https://addressesapi.090227.xyz/ip.164746.xyz',
 	'https://ipdb.api.030101.xyz/?type=bestproxy&country=true',
 	'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
-	'https://raw.githubusercontent.com/LKW2002LKW/yxip/refs/heads/main/ipv4.txt?token=GHSAT0AAAAAACXJLJNGAXO2GHWYLHJBJGUOZYRDYDA',
-	'https://raw.githubusercontent.com/LKW2002LKW/yxip/refs/heads/main/ipv6.txt?token=GHSAT0AAAAAACXJLJNGTCROVQN5X2FN4QYAZYRFTKA',
+	'https://raw.githubusercontent.com/LKW2002LKW/yxip/refs/heads/main/ipv4.txt',
+	'https://raw.githubusercontent.com/LKW2002LKW/yxip/refs/heads/main/ipv6.txt',
 ];
 let addressesnotls = [
 	//当sub为空且域名带有"worker"字样时启用本地优选域名/优选IP，若不带端口号 noTLS默认端口为80，#号后为备注别名
